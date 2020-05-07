@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="orangehrmLoginpage">
+<listeners>
+<listener class-name="com.utilities.Reporting"/>
+</listeners>
+
+<test name="logintest">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.testcases.TC_Logintest_001"/>
+</classes>
+
+
+</test>
+</suite>
